@@ -1,0 +1,14 @@
+{
+  "name": "dockerize-node-restapi-server",
+  "version": "1.0.0",
+  "description": "Node.js on Docker",
+  "author": "Rajesh Muraleedharan",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "json-server": "^0.14.0",
+    "faker": "^4.1.0"
+  }
+}

@@ -1,0 +1,6 @@
+docker build -f Dockerfile --no-cache . -t rajeshmuraleedharan/dockerizenoderestapiserver:v1
+
+docker run -p 49160:8080 -d rajeshmuraleedharan/dockerizenoderestapiserver:v1
+
+docker push rajeshmuraleedharan/dockerizenoderestapiserver:v1
+
