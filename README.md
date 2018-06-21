@@ -24,6 +24,20 @@ https://github.com/rajeshmuraleedharan/restapiwithjsonserver/blob/master/server.
 
 define port number you want to run, if you are running from docker it’s better use 8080. We will define all our api routes in Db.js file.
 
+# Step 3
+Create DB.js file
+
+![alt text](https://github.com/rajeshmuraleedharan/restapiwithjsonserver/blob/master/images/dbjs.PNG)
+https://github.com/rajeshmuraleedharan/restapiwithjsonserver/blob/master/db.js 
+
+first variable “generatePersonModule” links another file called “person.js”. In “person.js” I have used faker.js library to produce data on the fly.
+
+![alt text](https://github.com/rajeshmuraleedharan/restapiwithjsonserver/blob/master/images/fakejs.PNG)
+https://github.com/rajeshmuraleedharan/restapiwithjsonserver/blob/master/createdata/person.js 
+
+
+
+
 
 
 
