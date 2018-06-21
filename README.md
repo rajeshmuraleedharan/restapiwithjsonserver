@@ -35,6 +35,26 @@ first variable “generatePersonModule” links another file called “person.js
 ![alt text](https://github.com/rajeshmuraleedharan/restapiwithjsonserver/blob/master/images/fakejs.PNG)
 https://github.com/rajeshmuraleedharan/restapiwithjsonserver/blob/master/createdata/person.js 
 
+“firstRoute” variable loads “employees.json” static JSON file.
+
+![alt text](https://github.com/rajeshmuraleedharan/restapiwithjsonserver/blob/master/images/employeesjson.PNG)
+https://github.com/rajeshmuraleedharan/restapiwithjsonserver/blob/master/json/employees.json 
+
+So we are hosting two api routes 
+
+“employees” – which provides data from a static file
+“persons” – this provides dynamic data using faker.js
+
+# now you can test your rest api from CMD. Open CMD window from sorce folder.
+
+. Run command "npm install"
+
+. Run "node server.js"
+
+browse http://localhost:8080 url from your browser or "curl -i localhost:8080" from command line or use Postman.
+
+
+
 
 
 
