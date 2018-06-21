@@ -1,7 +1,7 @@
 {
-  "name": "dockerize-node-restapi-server",
+  "name": "rest-api-with-json-server",
   "version": "1.0.0",
-  "description": "Node.js on Docker",
+  "description": "A REST API With JSON Server using Node.js and Docker",
   "author": "Rajesh Muraleedharan",
   "main": "server.js",
   "scripts": {
