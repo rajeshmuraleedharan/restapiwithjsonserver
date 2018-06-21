@@ -1,4 +1,3 @@
-// employees.js
 var faker = require('faker')
 exports.generatePersons = function generatePersons () {
   var employees = []
