@@ -52,6 +52,30 @@ So we are hosting two api routes
 . Run "node server.js"
 
 browse http://localhost:8080 url from your browser or "curl -i localhost:8080" from command line or use Postman.
+![alt text](https://github.com/rajeshmuraleedharan/restapiwithjsonserver/blob/master/images/jsonserver.PNG)
+
+# Step 4
+Building docker image
+
+docker build -t <your docker hub username>/<image name and tag>
+  
+docker build -f Dockerfile --no-cache . -t rajeshmuraleedharan/restapiwithjsonserver:v1
+  
+# Step 5
+Run the image
+
+docker run -p 5000:8080 -d rajeshmuraleedharan/restapiwithjsonserver:v1
+
+Open a web browser and navigate to http://localhost:5000
+
+# Step 6 (optional)
+Push docker image to docker hub
+
+docker push rajeshmuraleedharan/restapiwithjsonserver:v1
+
+https://hub.docker.com/r/rajeshmuraleedharan/restapiwithjsonserver/
+
+
 
 
 
