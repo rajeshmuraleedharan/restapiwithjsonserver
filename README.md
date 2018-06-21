@@ -16,3 +16,14 @@ Create a package.json file that describes your app and its dependencies
 
 https://github.com/rajeshmuraleedharan/restapiwithjsonserver/blob/master/package.json 
 
+# Step 2
+create a server.js file that defines app using the json-server.
+
+![alt text](https://github.com/rajeshmuraleedharan/restapiwithjsonserver/blob/master/images/serverjs.PNG)
+https://github.com/rajeshmuraleedharan/restapiwithjsonserver/blob/master/server.js 
+
+define port number you want to run, if you are running from docker it’s better use 8080. We will define all our api routes in Db.js file.
+
+
+
+
